@@ -1,0 +1,79 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    direction: rtl;
+    background-color: #f0f8ff;
+    color: #333;
+}
+
+h1 {
+    font-size: 36px;
+    margin-top: 20px;
+    color: #007BFF;
+}
+
+iframe {
+    width: 100%;
+    height: 500px;
+    border: 3px solid #333;
+    margin-bottom: 20px;
+}
+
+.team {
+    margin: 20px;
+}
+
+.team h2 {
+    color: white;
+    padding: 10px;
+    font-size: 24px;
+}
+
+.red {
+    background-color: #FF4D4D;
+    border-radius: 10px;
+}
+
+.green {
+    background-color: #28A745;
+    border-radius: 10px;
+}
+
+.buzzer-button {
+    padding: 10px 20px;
+    font-size: 18px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    color: white;
+}
+
+.buzzer-button:hover {
+    background-color: #333;
+}
+
+.buzzer-output {
+    margin-top: 20px;
+    font-size: 24px;
+    color: #007BFF;
+}
+
+#reset-container {
+    margin-top: 30px;
+}
+
+#reset-button {
+    padding: 10px 30px;
+    font-size: 18px;
+    background-color: #FFC107;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+}
+
+#reset-button:hover {
+    background-color: #E0A800;
+}

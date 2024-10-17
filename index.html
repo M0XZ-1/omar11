@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>لعبة خلية الحروف مع الجرس</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>لعبة خلية الحروف مع الجرس</h1>
+
+    <!-- إدراج موقع Flashi.me -->
+    <iframe src="https://www.flashi.me/horof" title="لعبة خلية الحروف"></iframe>
+
+    <!-- الجرس الخاص -->
+    <div class="team red">
+        <h2>فريق الأحمر</h2>
+        <button class="buzzer-button" id="red-buzzer">🔴 ضغط الجرس</button>
+    </div>
+    <div class="team green">
+        <h2>فريق الأخضر</h2>
+        <button class="buzzer-button" id="green-buzzer">🟢 ضغط الجرس</button>
+    </div>
+    <div class="buzzer-output" id="buzzer-output">لم يتم الضغط على الجرس بعد.</div>
+
+    <!-- صوت الجرس -->
+    <audio id="buzzer-sound" src="buzzer.mp3" preload="auto"></audio>
+
+    <!-- زر إعادة التهيئة يظهر فقط للمضيف -->
+    <div id="reset-container">
+        <button id="reset-button">إعادة تهيئة الجرس</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
